@@ -1,5 +1,5 @@
 # 🐍 Warming-Up-for-Python
-![Python logo](algorithmshttps://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Python logo](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 ---
 This repository contains my personal journey from **Python fundamentals** to **algorithm implementation**. It's designed for those who are new to Python or preparing for coding interviews.
