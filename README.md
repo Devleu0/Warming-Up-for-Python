@@ -96,17 +96,6 @@ This repository contains my personal journey from **Python fundamentals** to **a
 * [Matrix Rotation](/Miscellaneous/rotate_a_matrix_by_90_degree.py)
 * Handling Recursion Limit
 
-#### **Getting Started**
-
-Launch Jupyter Notebook to view the `.ipynb` files.
-    ```bash
-    jupyter notebook
-    ```
-
-### **Contributing**
-
-Feel free to open a pull request! Any feedback, suggestions for new problems, or code improvements are welcome.
-
 ---
 
 
