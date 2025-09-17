@@ -1,2 +1,2 @@
-# Python-Warming-up
-Python for Warming up
+# Warming Up with Python
+Warming Up with Python
