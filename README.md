@@ -6,13 +6,13 @@ This repository contains my personal journey from **Python fundamentals** to **a
 ### 📂 **Contents**
 
 #### Basics
-* [Built_in_func&method.ipynb](./Warming-Up-for-Python/python_basics/Built_in_func%26method.ipynb)
-* [collections(list_dict_set_tuple).ipynb](./Warming-Up-for-Python/python_basics/collections(list_dict_set_tuple).ipynb)
-* [control_flow.ipynb](./Warming-Up-for-Python/python_basics/control_flow.ipynb)
-* [data_types.ipynb](./Warming-Up-for-Python/python_basics/data_types.ipynb)
-* [loop.ipynb](./Warming-Up-for-Python/python_basics/loop.ipynb)
-* [std_libraries.md](./Warming-Up-for-Python/python_basics/std_libraries.md)
-* [string.ipynb](./Warming-Up-for-Python/python_basics/string.ipynb)
+* [Built_in_func&method.ipynb](./python_basics/Built_in_func%26method.ipynb)
+* [collections(list_dict_set_tuple).ipynb](./python_basics/collections(list_dict_set_tuple).ipynb)
+* [control_flow.ipynb](./python_basics/control_flow.ipynb)
+* [data_types.ipynb](./python_basics/data_types.ipynb)
+* [loop.ipynb](./python_basics/loop.ipynb)
+* [std_libraries.md](./python_basics/std_libraries.md)
+* [string.ipynb](./python_basics/string.ipynb)
 #### Sorting
 * [Selection Sort](algorithms/Sorting/selection_sort.py)
 * [Insertion Sort](algorithms/Sorting/insertion_sort.py)
