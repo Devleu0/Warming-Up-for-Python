@@ -6,6 +6,7 @@
   * [문자열 관련 메서드](#문자열-관련-메서드)
   * [그래프 패턴](#그래프-패턴)
   * [자주 쓰는 조합](#자주-쓰는-조합)
+  * [기타 자주 쓰는 모듈](#기타-자주-쓰는-모듈)
   * [자료구조 팁](#자료구조-팁)
 
 ## 주요 컨테이너
@@ -82,7 +83,7 @@ C++의 `set`/`map`과 같은 정렬된(tree) 자료구조가 필요하면, `list
 
 -----
 
-\<details\> \<summary\>`1: BFS (너비 우선 탐색)`\</summary\>
+<details> <summary>`1: BFS (너비 우선 탐색)`</summary>
 
 ```python
 from collections import deque, defaultdict
@@ -102,9 +103,9 @@ def bfs(start):
                 q.append(nxt)
 ```
 
-\</details\>
+</details>
 
-\<details\> \<summary\>`2: DFS (깊이 우선 탐색)`\</summary\>
+<details> <summary>`2: DFS (깊이 우선 탐색)`</summary>
 
 ```python
 import sys
@@ -120,9 +121,9 @@ def dfs(cur):
             dfs(nxt)
 ```
 
-\</details\>T
+</details>
 
-\<details\>\<summary\> `3: Dijkstra (최단 경로)`\</summary\>
+<details><summary> `3: Dijkstra (최단 경로)`</summary>
 
 ```python
 import heapq
@@ -147,9 +148,9 @@ def dijkstra(start):
                 heapq.heappush(pq, (new_cost, nxt))
 ```
 
-\</details\>
+</details>
 
-\<details\>\<summary\>`4: Kruskal (MST)`\</summary\>
+<details><summary>`4: Kruskal (MST)`</summary>
 
 ```python
 edges = [] # (가중치, u, v) 튜플 저장
@@ -181,7 +182,7 @@ def kruskal(n):
     return total_cost
 ```
 
-\</details\>
+</details>
 
 -----
 
