@@ -2,6 +2,8 @@
 ![Python logo](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 ---
+제가 공부하려고 만든 파이썬 기초 학습 자료입니다.
+
 This repository contains my personal journey from **Python fundamentals** to **algorithm implementation**. It's designed for those who are new to Python or preparing for coding interviews.
 ### 📂 **Contents**
 
@@ -37,31 +39,11 @@ This repository contains my personal journey from **Python fundamentals** to **a
 
 #### Data Structure
 * [Disjoint-Set (Union-Find)](algorithms/Data%20Structure/disjoint_set.py)
-* Tree
-* Line
-* Plane
 
-#### String
-* Rabin-Karp
-* KMP
-* Trie
-
-#### Dynamic Programming
-* Tiling Problem
-* 0-1 Knapsack Problem
-* LIS (Longest Increasing Subsequence)
-* LCS (Longest Common Subsequence)
-* Matrix Chain Multiplication
 
 #### Geometry
 * [Number of intersection points of two lines in 1 dimension](algorithms/Geometry/number_of_intersection_points_of_two_lines_in_1_dimension.py)
-* CCW
-* Convex Hull
-* Polygon
 
-#### Probability Theory
-* Permutation
-* Combination
 
 #### Number Theory
 * [GCD (Greatest Common Divisor)](algorithms/Number%20Theory/gcd.py)
@@ -69,10 +51,6 @@ This repository contains my personal journey from **Python fundamentals** to **a
 * [Check Prime Number](algorithms/Number%20Theory/is_prime_number.py)
 * [Find All Divisors](algorithms/Number%20Theory/find_all_divisors_of_a_number.py)
 * [Prime Factorization](algorithms/Number%20Theory/prime_factorization.py)
-* Sieve of Eratosthenes
-
-#### Signal Processing
-* FFT
 
 #### Miscellaneous
 * Two Pointers
@@ -81,5 +59,4 @@ This repository contains my personal journey from **Python fundamentals** to **a
     * [Prefix Sum](algorithms/Miscellaneous/prefix_sum.py)
     * [Fenwick Tree (Binary Indexed Tree)](algorithms/Miscellaneous/fenwick_tree.py)
 * [Matrix Rotation](algorithms/Miscellaneous/rotate_a_matrix_by_90_degree.py)
-* Handling Recursion Limit
 ---
