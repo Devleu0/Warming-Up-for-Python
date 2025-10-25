@@ -5,7 +5,8 @@
 제가 공부하려고 만든 파이썬 기초 학습 자료입니다.
 
 This repository contains my personal journey from **Python fundamentals** to **algorithm implementation**. It's designed for those who are new to Python or preparing for coding interviews.
-### 📂 **Contents**
+
+### **구성**
 
 #### Basics
 * [Built_in_func&method.ipynb](./python_basics/Built_in_func%26method.ipynb)
@@ -15,27 +16,25 @@ This repository contains my personal journey from **Python fundamentals** to **a
 * [loop.ipynb](./python_basics/loop.ipynb)
 * [std_libraries.md](./python_basics/std_libraries.md)
 * [string.ipynb](./python_basics/string.ipynb)
+  
 #### Sorting
 * [Selection Sort](algorithms/Sorting/selection_sort.py)
 * [Insertion Sort](algorithms/Sorting/insertion_sort.py)
 * [Quick Sort](algorithms/Sorting/quick_sort.py)
 * [Counting Sort](algorithms/Sorting/counting_sort.py)
 * [Python Sort Library](algorithms/Sorting/python_sort_library.py)
+  
 #### Searching
 * [Binary Search](algorithms/Searching/binary_search.py)
-* [Python Binary Search Library](algorithms/Searching/python_binary_search_library.py)
+* [Binary Search Library](algorithms/Searching/binary_search_library.py)
     * [Count the number of frequencies of elements whose value is between \[left, right\] in a sorted array](algorithms/Searching/count_the_number_of_frequencies_in_a_sorted_array.py)
-* DFS
-* BFS
     * [Find the number of connected components](algorithms/Searching/find_the_number_of_connected_components.py)
 * [DFS & BFS Examples 1](algorithms/Searching/dfs_and_bfs_example_1.py)
 
 #### Graph
-* [Dijkstra Shortest Path](algorithms/Graph/dijkstra_shortest_path.py)
-* [Minimum Spanning Tree (MST)](algorithms/Graph/minimum_spanning_tree.py)
+* [Dijkstra](algorithms/Graph/dijkstra.py)
+* [MST](algorithms/Graph/mst.py)
 * [Topology Sort](algorithms/Graph/topology_sort.py)
-* Floyd–Warshall algorithm
-* Bipartite Matching
 
 #### Data Structure
 * [Disjoint-Set (Union-Find)](algorithms/Data%20Structure/disjoint_set.py)
@@ -59,4 +58,5 @@ This repository contains my personal journey from **Python fundamentals** to **a
     * [Prefix Sum](algorithms/Miscellaneous/prefix_sum.py)
     * [Fenwick Tree (Binary Indexed Tree)](algorithms/Miscellaneous/fenwick_tree.py)
 * [Matrix Rotation](algorithms/Miscellaneous/rotate_a_matrix_by_90_degree.py)
+  
 ---
