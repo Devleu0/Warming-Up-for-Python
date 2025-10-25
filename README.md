@@ -9,36 +9,33 @@ This repository contains my personal journey from **Python fundamentals** to **a
 ### **구성**
 
 #### Basics
-`자료형, 제어문`
-* [data_types.ipynb](./python_basics/data_types.ipynb)
-* [loop.ipynb](./python_basics/loop.ipynb)
-* [control_flow.ipynb](./python_basics/control_flow.ipynb)
+* [자료형](./python_basics/data_types.ipynb)
+* [반복문](./python_basics/loop.ipynb)
+* [제어문](./python_basics/control_flow.ipynb)
   
-`표준 라이브러리`
 * [Built_in_func&method.ipynb](./python_basics/Built_in_func%26method.ipynb)
-* [string.ipynb](./python_basics/string.ipynb)
-* [collections(list_dict_set_tuple).ipynb](./python_basics/collections(list_dict_set_tuple).ipynb)
-* [std_libraries.md](./python_basics/std_libraries.md)
+* [문자열](./python_basics/string.ipynb)
+* [list dict set tuple](./python_basics/collections(list_dict_set_tuple).ipynb)
 
   
 #### 정렬
-* [Selection Sort](algorithms/Sorting/selection_sort.py)
-* [Insertion Sort](algorithms/Sorting/insertion_sort.py)
-* [Quick Sort](algorithms/Sorting/quick_sort.py)
+* [선택 정렬](algorithms/Sorting/selection_sort.py)
+* [삽입 정렬](algorithms/Sorting/insertion_sort.py)
+* [퀵 정렬](algorithms/Sorting/quick_sort.py)
 * [Counting Sort](algorithms/Sorting/counting_sort.py)
 * [Python Sort Library](algorithms/Sorting/python_sort_library.py)
   
 #### 탐색
-* [Binary Search](algorithms/Searching/binary_search.py)
-* [Binary Search Library](algorithms/Searching/binary_search_library.py)
+* [이진 탐색](algorithms/Searching/binary_search.py)
+* [Bisect Library](algorithms/Searching/binary_search_library.py)
     * [Count the number of frequencies of elements whose value is between \[left, right\] in a sorted array](algorithms/Searching/count_the_number_of_frequencies_in_a_sorted_array.py)
     * [Find the number of connected components](algorithms/Searching/find_the_number_of_connected_components.py)
-* [DFS & BFS Examples 1](algorithms/Searching/dfs_and_bfs_example_1.py)
-* [Dijkstra](algorithms/Graph/dijkstra.py)
+* [DFS & BFS](algorithms/Searching/dfs_and_bfs_example_1.py)
+* [다익스트라](algorithms/Graph/dijkstra.py)
 
 #### 그래프
-* [Dijkstra](algorithms/Graph/dijkstra.py)
-* [DFS & BFS Examples 1](algorithms/Searching/dfs_and_bfs_example_1.py)
+* [다익스트라](algorithms/Graph/dijkstra.py)
+* [DFS & BFS](algorithms/Searching/dfs_and_bfs_example_1.py)
 * [MST](algorithms/Graph/mst.py)
 * [Topology Sort](algorithms/Graph/topology_sort.py)
 
@@ -51,10 +48,10 @@ This repository contains my personal journey from **Python fundamentals** to **a
 
 
 #### 수학
-* [GCD (Greatest Common Divisor)](algorithms/Number%20Theory/gcd.py)
-* [LCM (Least Common Multiple)](algorithms/Number%20Theory/lcm.py)
-* [Check Prime Number](algorithms/Number%20Theory/is_prime_number.py)
-* [Find All Divisors](algorithms/Number%20Theory/find_all_divisors_of_a_number.py)
+* [최대공약수 GCD](algorithms/Number%20Theory/gcd.py)
+* [최소공배수 LCM](algorithms/Number%20Theory/lcm.py)
+* [소수 판정](algorithms/Number%20Theory/is_prime_number.py)
+* [약수 찾기](algorithms/Number%20Theory/find_all_divisors_of_a_number.py)
 * [Prime Factorization](algorithms/Number%20Theory/prime_factorization.py)
 
 #### 기타
