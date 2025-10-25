@@ -12,7 +12,6 @@ This repository contains my personal journey from **Python fundamentals** to **a
 * [자료형](./python_basics/data_types.ipynb)
 * [반복문](./python_basics/loop.ipynb)
 * [제어문](./python_basics/control_flow.ipynb)
-  
 * [Built_in_func&method.ipynb](./python_basics/Built_in_func%26method.ipynb)
 * [문자열](./python_basics/string.ipynb)
 * [list dict set tuple](./python_basics/collections(list_dict_set_tuple).ipynb)
