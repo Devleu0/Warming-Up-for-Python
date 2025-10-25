@@ -9,49 +9,55 @@ This repository contains my personal journey from **Python fundamentals** to **a
 ### **구성**
 
 #### Basics
-* [Built_in_func&method.ipynb](./python_basics/Built_in_func%26method.ipynb)
-* [collections(list_dict_set_tuple).ipynb](./python_basics/collections(list_dict_set_tuple).ipynb)
-* [control_flow.ipynb](./python_basics/control_flow.ipynb)
+`자료형, 제어문`
 * [data_types.ipynb](./python_basics/data_types.ipynb)
 * [loop.ipynb](./python_basics/loop.ipynb)
-* [std_libraries.md](./python_basics/std_libraries.md)
-* [string.ipynb](./python_basics/string.ipynb)
+* [control_flow.ipynb](./python_basics/control_flow.ipynb)
   
-#### Sorting
+`표준 라이브러리`
+* [Built_in_func&method.ipynb](./python_basics/Built_in_func%26method.ipynb)
+* [string.ipynb](./python_basics/string.ipynb)
+* [collections(list_dict_set_tuple).ipynb](./python_basics/collections(list_dict_set_tuple).ipynb)
+* [std_libraries.md](./python_basics/std_libraries.md)
+
+  
+#### 정렬
 * [Selection Sort](algorithms/Sorting/selection_sort.py)
 * [Insertion Sort](algorithms/Sorting/insertion_sort.py)
 * [Quick Sort](algorithms/Sorting/quick_sort.py)
 * [Counting Sort](algorithms/Sorting/counting_sort.py)
 * [Python Sort Library](algorithms/Sorting/python_sort_library.py)
   
-#### Searching
+#### 탐색
 * [Binary Search](algorithms/Searching/binary_search.py)
 * [Binary Search Library](algorithms/Searching/binary_search_library.py)
     * [Count the number of frequencies of elements whose value is between \[left, right\] in a sorted array](algorithms/Searching/count_the_number_of_frequencies_in_a_sorted_array.py)
     * [Find the number of connected components](algorithms/Searching/find_the_number_of_connected_components.py)
 * [DFS & BFS Examples 1](algorithms/Searching/dfs_and_bfs_example_1.py)
-
-#### Graph
 * [Dijkstra](algorithms/Graph/dijkstra.py)
+
+#### 그래프
+* [Dijkstra](algorithms/Graph/dijkstra.py)
+* [DFS & BFS Examples 1](algorithms/Searching/dfs_and_bfs_example_1.py)
 * [MST](algorithms/Graph/mst.py)
 * [Topology Sort](algorithms/Graph/topology_sort.py)
 
-#### Data Structure
+#### 자료 구조
 * [Disjoint-Set (Union-Find)](algorithms/Data%20Structure/disjoint_set.py)
 
 
-#### Geometry
+#### 기하
 * [Number of intersection points of two lines in 1 dimension](algorithms/Geometry/number_of_intersection_points_of_two_lines_in_1_dimension.py)
 
 
-#### Number Theory
+#### 수학
 * [GCD (Greatest Common Divisor)](algorithms/Number%20Theory/gcd.py)
 * [LCM (Least Common Multiple)](algorithms/Number%20Theory/lcm.py)
 * [Check Prime Number](algorithms/Number%20Theory/is_prime_number.py)
 * [Find All Divisors](algorithms/Number%20Theory/find_all_divisors_of_a_number.py)
 * [Prime Factorization](algorithms/Number%20Theory/prime_factorization.py)
 
-#### Miscellaneous
+#### 기타
 * Two Pointers
     * [Number of intervals whose sum is M](algorithms/Miscellaneous/number_of_intervals_whose_sum_is_M.py)
 * Interval Sum
