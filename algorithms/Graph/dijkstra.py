@@ -8,16 +8,12 @@ def dijkstra(start):
     # Set the start node.
     q = [(0, start)]
     distance[start] = 0
-    while q: # Until the queue is empty.
-        # Pop the node who has the shortest path.
+    while q: 
         dist, now = heapq.heappop(q)
-        # If the node is already processed, pass.
         if distance[now] < dist:
             continue
-        # Check the adjacent nodes of the current node.
         for i in graph[now]:
             cost = dist + i[1]
-            # If the distance is shorter when going through the current node to the adjacent node.
             if cost < distance[i[0]]:
                 distance[i[0]] = cost
                 heapq.heappush(q, (cost, i[0]))
