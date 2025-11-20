@@ -31,27 +31,37 @@ This repository contains my personal journey from **Python fundamentals** to **a
     * [Find the number of connected components](algorithms/Searching/find_the_number_of_connected_components.py)
 * [DFS & BFS](algorithms/Searching/dfs_and_bfs_example_1.py)
 * [다익스트라](algorithms/Graph/dijkstra.py)
+* [LIS_NlogN](algorithms/Searching/lis.py)
+* [Bitmask_TSP](algorithms/Searching/Bitmask_TSP.py)
+* [KMP_Algorithm](algorithms/Searching/KMP.py)
+
 
 #### 그래프
 * [다익스트라](algorithms/Graph/dijkstra.py)
 * [DFS & BFS](algorithms/Searching/dfs_and_bfs_example_1.py)
 * [MST](algorithms/Graph/mst.py)
 * [Topology Sort](algorithms/Graph/topology_sort.py)
+* [LCA_Binary_Lifting](algorithms/Graph/lca.py)
+* [SCC_Tarjan](algorithms/Graph/scc_tarjan.py)
+* [Articulation_Point](algorithms/Graph/articulation_point.py)
 
 #### 자료 구조
 * [Disjoint-Set (Union-Find)](algorithms/Data%20Structure/disjoint_set.py)
-
-
-#### 기하
-* [Number of intersection points of two lines in 1 dimension](algorithms/Geometry/number_of_intersection_points_of_two_lines_in_1_dimension.py)
-
-
+* [Coordinate_Compression](algorithms/Data%20Structure/coordinate_compression.py)
+* [Fenwick_Tree](algorithms/Data%20Structure/fenwick_tree.py)
+  
 #### 수학
 * [최대공약수 GCD](algorithms/Number%20Theory/gcd.py)
 * [최소공배수 LCM](algorithms/Number%20Theory/lcm.py)
 * [소수 판정](algorithms/Number%20Theory/is_prime_number.py)
 * [약수 찾기](algorithms/Number%20Theory/find_all_divisors_of_a_number.py)
 * [Prime Factorization](algorithms/Number%20Theory/prime_factorization.py)
+* [유클리드 호제법](algorithms/Number%20Theory/extended_euclidean.py)
+* [Lucas 알고리즘](algorithms/Number%20Theory/lucas_theorem.py)
+
+#### 기하
+* [Number of intersection points of two lines in 1 dimension](algorithms/Geometry/number_of_intersection_points_of_two_lines_in_1_dimension.py)
+
 
 #### 기타
 * Two Pointers
