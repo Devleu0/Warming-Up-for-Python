@@ -1,47 +1,60 @@
 from collections import deque
-
-v, e = map(int, input().split())
-indegree = [0] * (v + 1)
-graph = [[] for i in range(v + 1)]
-
-for _ in range(e):
-   a, b = map(int, input().split())
-   graph[a].append(b)
-   indegree[b] += 1
-
-''' Topology Sort '''
-def topology_sort():
-    result = []
-    q = deque()
-
-    for i in range(1, v + 1):
+"""
+위상 정렬 (Kahn's Algorithm)
+    :param n: 노드 개수
+    :param adj: 인접 리스트 (방향 그래프)
+    :return: 정렬된 순서 리스트 (사이클 존재 시 빈 리스트 혹은 일부만 반환)
+"""
+def topological_sort(n, adj):
+    indegree = [0] * (n + 1)
+    
+    # 1. 진입 차수 계산
+    for u in range(1, n + 1):
+        for v in adj[u]:
+            indegree[v] += 1
+            
+    # 2. 진입 차수가 0인 노드를 큐에 삽입
+    queue = deque()
+    for i in range(1, n + 1):
         if indegree[i] == 0:
-            q.append(i)
+            queue.append(i)
+            
+    result = []
+    
+    # 3. 큐가 빌 때까지 반복
+    while queue:
+        curr = queue.popleft()
+        result.append(curr)
+        
+        for next_node in adj[curr]:
+            indegree[next_node] -= 1
+            # 새롭게 진입 차수가 0이 된 노드 등록
+            if indegree[next_node] == 0:
+                queue.append(next_node)
+                
+    # 결과 리스트의 길이가 N과 다르면 사이클 존재
+    if len(result) != n:
+        print("그래프에 사이클이 존재하여 위상 정렬 불가능")
+        return []
+        
+    return result
 
-    while q:
-        now = q.popleft()
-        result.append(now)
-        for i in graph[now]:
-            indegree[i] -= 1
-            if indegree[i] == 0:
-                q.append(i)
-
-    for i in result:
-        print(i, end=' ')
-
-topology_sort()
-
-'''
-[Input Example 1]
-7 8
-1 2
-1 5
-2 3
-2 6
-3 4
-4 7
-5 6
-6 4
-[Output Example 1]
-1 2 5 3 6 4 7
-'''
+if __name__ == "__main__":
+    # 예제 입력
+    # 1 -> 2
+    # 1 -> 5
+    # 2 -> 3
+    # 3 -> 4
+    # 5 -> 2 (1->5->2->3->4)
+    # 6 (독립적)
+    
+    N = 6
+    relations = [(1, 2), (1, 5), (2, 3), (3, 4), (5, 2)]
+    # 독립된 노드 6을 위해 리스트 크기 조절
+    adj_list = [[] for _ in range(N + 1)]
+    
+    for u, v in relations:
+        adj_list[u].append(v)
+    order = topological_sort(N, adj_list)
+    print(f"위상 정렬 결과: {order}")
+    # 가능한 답 중 하나: [1, 6, 5, 2, 3, 4] 또는 [6, 1, 5, 2, 3, 4] 등
