@@ -35,7 +35,7 @@ def bfs(x, y):
             ny = y + dy[i]
             if nx < 0 or ny < 0 or nx >= n or ny >= m:
                 continue
-            if data[x][y] == '0' and not visited[nx][ny]:
+            if data[nx][ny] == '0' and not visited[nx][ny]:
                 visited[nx][ny] = True
                 queue.append((nx, ny))
 

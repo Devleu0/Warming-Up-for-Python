@@ -58,6 +58,6 @@ if __name__ == "__main__":
     print(f"텍스트: {T}")
     print(f"패턴: {P}")
     print(f"실패 함수(Pi): {pi_arr}") # ABAB -> [0, 0, 1, 2]
-    print(f"매칭된 인덱스: {matches}") # 0, 2 (ABAB..., ..ABAB..)
+    print(f"매칭된 인덱스: {matches}") # 0, 2, 4 (겹치는 매칭도 모두 찾음)
     
-    assert matches == [0, 2]
+    assert matches == [0, 2, 4]

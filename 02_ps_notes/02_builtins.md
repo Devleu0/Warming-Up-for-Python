@@ -101,7 +101,7 @@ print(sorted(words, reverse=True))                # ['kiwi', 'banana', 'apple']
 
 * `v.sort()` 는 제자리 정렬 후 `None` 반환. `v = v.sort()` 는 흔한 실수!
 * 문자열 정렬 기준이 숫자 앞에 있으면 `key=int` 로 변환: `sorted(['10', '9', '2'], key=int)`.
-* 커스텀 비교 함수가 꼭 필요하면 `functools.cmp_to_key` (→ [라이브러리 더보기](./python%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC%20%EB%8D%94%EB%B3%B4%EA%B8%B0.md)).
+* 커스텀 비교 함수가 꼭 필요하면 `functools.cmp_to_key` (→ [라이브러리](./04_libraries.md#5-functools)).
 
 ## 6. 정수 연산 함정
 
