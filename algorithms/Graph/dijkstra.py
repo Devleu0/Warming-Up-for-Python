@@ -1,41 +1,42 @@
+"""Dijkstra 최단 경로 (우선순위 큐, O(E log V))."""
 import heapq
 import sys
-input = sys.stdin.readline
+
 INF = int(1e9)
 
-''' Dijkstra Shortest Path '''
-def dijkstra(start):
-    # Set the start node.
-    q = [(0, start)]
+
+def dijkstra(graph, start):
+    """graph[u] = [(v, cost), ...]. start 에서 각 노드까지의 최단 거리 리스트를 반환."""
+    distance = [INF] * len(graph)
     distance[start] = 0
-    while q: 
+    q = [(0, start)]
+    while q:
         dist, now = heapq.heappop(q)
-        if distance[now] < dist:
+        if distance[now] < dist:  # 이미 처리된 노드
             continue
-        for i in graph[now]:
-            cost = dist + i[1]
-            if cost < distance[i[0]]:
-                distance[i[0]] = cost
-                heapq.heappush(q, (cost, i[0]))
+        for nxt, w in graph[now]:
+            cost = dist + w
+            if cost < distance[nxt]:
+                distance[nxt] = cost
+                heapq.heappush(q, (cost, nxt))
+    return distance
 
-n, m = map(int, input().split())
-start = int(input())
-graph = [[] for i in range(n + 1)]
-distance = [INF] * (n + 1)
 
-for _ in range(m):
-    a, b, c = map(int, input().split())
-    graph[a].append((b, c))
+def main():
+    input = sys.stdin.readline
+    n, m = map(int, input().split())
+    start = int(input())
+    graph = [[] for _ in range(n + 1)]
+    for _ in range(m):
+        a, b, c = map(int, input().split())
+        graph[a].append((b, c))
+    distance = dijkstra(graph, start)
+    for d in distance[1:]:
+        print("INFINITY" if d == INF else d)
 
-# Run the Dijkstra algorithm.
-dijkstra(start)
 
-# Print all the shortest paths to all nodes.
-for i in range(1, n + 1):
-    if distance[i] == INF:
-        print("INFINITY")
-    else:
-        print(distance[i])
+if __name__ == "__main__":
+    main()
 
 '''
 [Input Example 1]
